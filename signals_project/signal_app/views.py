@@ -50,8 +50,6 @@ def q1_view(request):
     """
     return HttpResponse(html)
 
-
-# Q2: Check if signal runs in same thread
 def q2_view(request):
     signal_log.clear()
 
@@ -97,8 +95,6 @@ def q2_view(request):
     """
     return HttpResponse(html)
 
-
-# Q3: Check if signal runs in same DB transaction
 def q3_view(request):
     signal_log.clear()
 
